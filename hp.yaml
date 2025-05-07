@@ -66,13 +66,13 @@ sniffer:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
 
 proxies:
-  - name: "🇮🇷 Warp - IPv4-1"
+  - name: "🇮🇷 hamedp71 - IPv4-1"
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
     private-key: "pQ15jrTUSHWaZUZrR7VKob9PjbrStxUQJ/akkKkplsU="
-    server: 188.114.96.327
-    port: 891
+    server: 188.114.96.64
+    port: 4500
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
@@ -90,27 +90,27 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇩🇪 Warp - IPv4-1"
+  - name: "🇩🇪 hamedp71 - IPv4-1"
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
     private-key: "cCzElB7zAvcK9LVYUxt+q9qr1kVFTXPppqc8zdxm62k="
-    server: 188.114.96.227
-    port: 1180
+    server: 188.114.97.176
+    port: 890
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv4-1"
+    dialer-proxy: "🇮🇷 hamedp71 - IPv4-1"
 
-  - name: "🇮🇷 Warp - IPv4-2"
+  - name: "🇮🇷 hamedp71 - IPv4-2"
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
     private-key: "sBlOEknlqiLiQ0cgThr8n9sZB6nCJ0oTgYMlTlLgekY="
-    server: 188.114.96.156
-    port: 880
+    server: 188.114.96.213
+    port: 3138
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
@@ -128,41 +128,41 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇩🇪 Warp - IPv4-2"
+  - name: "🇩🇪 hamedp71 - IPv4-2"
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1/128
     private-key: "gEvJgRYd6tzU6yYfAs24Re/8+WWvTsqGMKl+EBCUjFE="
-    server: 188.114.96.429
-    port: 968
+    server: 188.114.97.53
+    port: 945
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv4-1"
+    dialer-proxy: "🇮🇷 hamedp71 - IPv4-1"
 
-  - name: "🇩🇪 Warp - IPv4-3"
+  - name: "🇩🇪 hamedp71 - IPv4-3"
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
     private-key: "SB7D/463hsCdAIV9xLLgHOhtH1hiHqzH8u2MIKHpSGA="
-    server: 188.114.98.199
-    port: 854
+    server: 188.114.97.209
+    port: 8742
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv4-2"
+    dialer-proxy: "🇮🇷 hamedp71 - IPv4-2"
 
-  - name: "🇮🇷 Warp - IPv6"
+  - name: "🇮🇷 hamedp71 - IPv6"
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
     private-key: "8BulFfbSIejAzA4bET2F09I+ZJvNrSdhvD9HRHNwZVM="
-    server: "[2606:4700:d0::e574:0079:bcd6:e1b4]"
-    port: 1018
+    server: "[2606:4700:d1::566f:47fc:3142:58ee]"
+    port: 945
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
@@ -180,32 +180,32 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇸🇪 Warp - IPv6"
+  - name: "🇸🇪 hamedp71 - IPv6"
     type: wireguard
     ip: 172.16.0.2/32
     ipv6: 2001:db8:1::1
     private-key: "0GapdERcPdqP7hXovlbv/HoUafjR3jB4EGGm+LXXdlA="
-    server: 188.114.98.216
-    port: 987
+    server: 188.114.97.26
+    port: 2371
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0", "10.0.0.0/8", "!185.143.223.0/24", "!94.232.128.0/21"]
     reserved: "AAAA"
     udp: true
     mtu: 1280
-    dialer-proxy: "🇮🇷 Warp - IPv6"
+    dialer-proxy: "🇮🇷 hamedp71 - IPv6"
 
 proxy-groups:
   - name: "🌐 گلوبال"
     type: select
     proxies:
       - "🚀 انتخاب خودکار (بهترین)"
-      - "🇮🇷 Warp - IPv4-1"
-      - "🇩🇪 Warp - IPv4-1"
-      - "🇮🇷 Warp - IPv4-2"
-      - "🇩🇪 Warp - IPv4-2"
-      - "🇩🇪 Warp - IPv4-3"
-      - "🇮🇷 Warp - IPv6"
-      - "🇸🇪 Warp - IPv6"
+      - "🇮🇷 hamedp71 - IPv4-1"
+      - "🇩🇪 hamedp71 - IPv4-1"
+      - "🇮🇷 hamedp71 - IPv4-2"
+      - "🇩🇪 hamedp71 - IPv4-2"
+      - "🇩🇪 hamedp71 - IPv4-3"
+      - "🇮🇷 hamedp71 - IPv6"
+      - "🇸🇪 hamedp71 - IPv6"
 
   - name: "🚀 انتخاب خودکار (بهترین)"
     type: url-test
@@ -213,13 +213,13 @@ proxy-groups:
     interval: 600
     tolerance: 100
     proxies:
-      - "🇮🇷 Warp - IPv4-1"
-      - "🇩🇪 Warp - IPv4-1"
-      - "🇮🇷 Warp - IPv4-2"
-      - "🇩🇪 Warp - IPv4-2"
-      - "🇩🇪 Warp - IPv4-3"
-      - "🇮🇷 Warp - IPv6"
-      - "🇸🇪 Warp - IPv6"
+      - "🇮🇷 hamedp71 - IPv4-1"
+      - "🇩🇪 hamedp71 - IPv4-1"
+      - "🇮🇷 hamedp71 - IPv4-2"
+      - "🇩🇪 hamedp71 - IPv4-2"
+      - "🇩🇪 hamedp71 - IPv4-3"
+      - "🇮🇷 hamedp71 - IPv6"
+      - "🇸🇪 hamedp71 - IPv6"
 
 rule-providers:
   ir:
